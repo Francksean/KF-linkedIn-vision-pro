@@ -74,7 +74,7 @@ function Discussions() {
       })
       .to(manangerComponent,{
         y:250,
-        duration:1
+        duration:0.2
       })
 
     }else{
