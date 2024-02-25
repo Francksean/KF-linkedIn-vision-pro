@@ -1,13 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './profile.css'
-import Avatar from '@mui/material/Avatar';
 import Divider from '@mui/material/Divider';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 
 import profileImg from '../../assets/profile-img.jpg'
 import banner from '../../assets/banner-img.jpg'
-import premiumIcon from '../../assets/premium-icon.png'
+import premiumIcon from '../../assets/premium.png'
 import uxMagazine from '../../assets/uxmagazine.png'
 import adpList from '../../assets/adplist.png'
 import memorisely from '../../assets/memorisely.png'
