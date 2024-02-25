@@ -11,6 +11,10 @@ import premiumIcon from '../../assets/premium-icon.png'
 import uxMagazine from '../../assets/uxmagazine.png'
 import adpList from '../../assets/adplist.png'
 import memorisely from '../../assets/memorisely.png'
+import awwwards from '../../assets/awwwards.jpg'
+import medium from '../../assets/medium.jpg'
+import react from '../../assets/react.jpg'
+import gdg from '../../assets/gdg.jpg'
 
 
 function Profile() {
@@ -50,9 +54,12 @@ function Profile() {
         <div className="profile_proposals">
           <p>Add to your feed</p>
           <div className="profile_proposals_container">
-            <ProposalItem src={uxMagazine} title={"UX Magazine"} brief={"Company | Online Media"}/>
             <ProposalItem src={adpList} title={"adplist.org"} brief={"Company | Higher Education"}/>
+            <ProposalItem src={medium} title={"Medium"} brief={"Company | Blog & Articles"}/>
+            <ProposalItem src={uxMagazine} title={"UX Magazine"} brief={"Company | Online Media"}/>
+            <ProposalItem src={gdg} title={"Google Developer Group"} brief={"Company | Google"}/>
             <ProposalItem src={memorisely} title={"Memorisely"} brief={"Company | E-learning"}/>
+            <ProposalItem src={react} title={"React"} brief={"Company | High Tech"}/>
           </div>
         </div>
       </div>

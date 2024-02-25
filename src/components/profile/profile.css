@@ -126,12 +126,13 @@
 .proposal_item img{
   height: 42.5px;
   width: 42.5px;
+  border-radius: 50%;
 }
 .proposal_item_infos{
   display: flex;
   flex-direction: column;
   align-items: start;
-  row-gap: 8px;
+  row-gap: 5px;
 }
 .proposal_item_infos p:nth-child(2){
   color: rgba(255,255,255,0.8);
@@ -151,5 +152,6 @@
   cursor: pointer;
   color: black;
   background-color: white;
+  font-weight: bold;
   scale: 0.95;
 }
