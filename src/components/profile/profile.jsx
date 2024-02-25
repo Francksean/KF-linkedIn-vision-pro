@@ -55,6 +55,7 @@ function Profile() {
           <p>Add to your feed</p>
           <div className="profile_proposals_container">
             <ProposalItem src={adpList} title={"adplist.org"} brief={"Company | Higher Education"}/>
+            <ProposalItem src={awwwards} title={"Awwwards"} brief={"Company | Web & Design"}/>
             <ProposalItem src={medium} title={"Medium"} brief={"Company | Blog & Articles"}/>
             <ProposalItem src={uxMagazine} title={"UX Magazine"} brief={"Company | Online Media"}/>
             <ProposalItem src={gdg} title={"Google Developer Group"} brief={"Company | Google"}/>
