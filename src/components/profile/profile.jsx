@@ -3,6 +3,10 @@ import './profile.css'
 import Manager from '../manager/manager';
 import { gsap } from 'gsap'
 
+import { CSSPlugin } from 'gsap/CSSPlugin'; // Import du plugin CSSPlugin
+
+gsap.registerPlugin(CSSPlugin); // Enregistrement du plugin CSSPlugin
+
 
 import Divider from '@mui/material/Divider';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
@@ -35,7 +39,7 @@ function Profile() {
   useEffect(()=>{
     const profileComponent = profileRef.current
     const manangerComponent = managerRef.current
-    const timeline = new Timeline()
+    const timeline = new gsap.timeline()
 
 
     if(isProfileOpen){

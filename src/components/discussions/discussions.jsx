@@ -3,6 +3,9 @@ import SearchBar from '../searchbar/searchbar'
 import './discussions.css'
 import Manager from '../manager/manager';
 import { gsap } from "gsap"
+import { CSSPlugin } from 'gsap/CSSPlugin'; // Import du plugin CSSPlugin
+
+gsap.registerPlugin(CSSPlugin); // Enregistrement du plugin CSSPlugin
 
 import EditNoteIcon from '@mui/icons-material/EditNote';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
@@ -61,7 +64,7 @@ function Discussions() {
   useEffect(()=>{
     const discComponent = discRef.current
     const manangerComponent = managerRef.current
-    const timeline = new Timeline()
+    const timeline = new gsap.timeline()
 
     if(isDiscOpen){
       timeline.to(discComponent, {
