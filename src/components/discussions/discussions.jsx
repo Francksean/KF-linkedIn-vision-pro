@@ -72,50 +72,50 @@ function Discussions() {
       </div>
       <div className="discussions_container">
         <DiscussionItem src={profilePic1} name={"Jade Bankole"} time={"4:44"} content={"Jade: What's new?"} unread={3} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic2} name={"Tony Blair"} time={"4:24"} content={"Tony: I've sent you a copy of the doc."} unread={8} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic3} name={"Martins Gonzalez"} time={"3:01"} content={"You: Thanks for accepting my requ... "} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic4} name={"Lugard Frederick"} time={"2:26"} content={"Lugard: Hi"} unread={1} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic5} name={"Ash Williams"} time={"2:04"} content={"You: Congrats on the new role"} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic8} name={"Blessing Kay"} time={"1:01"} content={"Blessing: Great Job !"} state={"bold"} unread={1}/>
         <DiscussionItem src={profilePic1} name={"Jade Bankole"} time={"4:44"} content={"Jade: What's new?"} unread={3} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic2} name={"Tony Blair"} time={"4:24"} content={"Tony: I've sent you a copy of the doc."} unread={8} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic3} name={"Martins Gonzalez"} time={"3:01"} content={"You: Thanks for accepting my requ... "} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic4} name={"Lugard Frederick"} time={"2:26"} content={"Lugard: Hi"} unread={1} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic5} name={"Ash Williams"} time={"2:04"} content={"You: Congrats on the new role"} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic8} name={"Blessing Kay"} time={"1:01"} content={"Blessing: Great Job !"} state={"bold"} unread={1}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic1} name={"Jade Bankole"} time={"4:44"} content={"Jade: What's new?"} unread={3} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic2} name={"Tony Blair"} time={"4:24"} content={"Tony: I've sent you a copy of the doc."} unread={8} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic3} name={"Martins Gonzalez"} time={"3:01"} content={"You: Thanks for accepting my requ... "} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic4} name={"Lugard Frederick"} time={"2:26"} content={"Lugard: Hi"} unread={1} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic5} name={"Ash Williams"} time={"2:04"} content={"You: Congrats on the new role"} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic8} name={"Blessing Kay"} time={"1:01"} content={"Blessing: Great Job !"} state={"bold"} unread={1}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic1} name={"Jade Bankole"} time={"4:44"} content={"Jade: What's new?"} unread={3} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic2} name={"Tony Blair"} time={"4:24"} content={"Tony: I've sent you a copy of the doc."} unread={8} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic3} name={"Martins Gonzalez"} time={"3:01"} content={"You: Thanks for accepting my requ... "} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic4} name={"Lugard Frederick"} time={"2:26"} content={"Lugard: Hi"} unread={1} state={"bold"} isConnected={true}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic5} name={"Ash Williams"} time={"2:04"} content={"You: Congrats on the new role"} state={"base"}/>
-        <Divider variant="middle"/>
+        <Divider variant="inset"/>
         <DiscussionItem src={profilePic8} name={"Blessing Kay"} time={"1:01"} content={"Blessing: Great Job !"} state={"bold"} unread={1}/>
       </div>
       
