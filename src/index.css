@@ -1,0 +1,14 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+*::-webkit-scrollbar{
+  height: 0px;
+  width: 0px;
+}
+.root{
+  height: 100vh;
+  width: 100vw;
+}
