@@ -65,7 +65,6 @@ function Discussions() {
 
     if(isDiscOpen){
       timeline.to(discComponent, {
-        transformOrigin:"center",
         width:0,
         height:0,
         duration:1,
@@ -73,7 +72,6 @@ function Discussions() {
 
     }else{
       timeline.to(discComponent, {
-        transformOrigin:"center",
         width:307,
         height:500,
         duration:1,

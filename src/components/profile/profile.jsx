@@ -40,7 +40,6 @@ function Profile() {
 
     if(isProfileOpen){
       timeline.to(profileComponent, {
-        transformOrigin:"center",
         width:0,
         height:0,
         duration:1,
@@ -48,7 +47,6 @@ function Profile() {
 
     }else{
       timeline.to(profileComponent, {
-        transformOrigin:"center",
         width:307,
         height:500,
         duration:1,
