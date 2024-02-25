@@ -7,7 +7,6 @@ import EmailIcon from '@mui/icons-material/Email';
 const Manager = forwardRef(function Manager({func, isOpen, comp}, ref) {
   const handleClick = ()=>{
     func();
-    console.log(isOpen)
   }
   return (
     <>

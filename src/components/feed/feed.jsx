@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import './feed.css'
+import Navbar from '../navbar/navbar';
+
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import SearchBar from '../searchbar/searchbar'
 import profileImg from '../../assets/profile-img.jpg'
@@ -55,98 +57,102 @@ function Feed() {
     setPostContent(e.target.value)
   }
   return (
-    <div className='feed'>
-      <div className="feed_header">
-        <img src={linkedInLogo} alt="" />
-        <SearchBar settings={false}/>
-        <div className="feed_header_profile">
-          <img src={profileImg} alt="" />
-          <ExpandMoreIcon style={{color:'white', height:'13px', width:'13px'}}/>
-        </div>
-      </div>
-      <div className="make_post">
-        <div className="make_post_top">
-          <img src={profileImg} alt="" />
-          <input type="text" name="post-content" value={PostContent} id="" placeholder='Start a post' onChange={()=>{updateValue}}/>
-        </div>
-        <div className="make_post_bottom">
-          <div className='make_post_bottom_button'>
-            <PhotoSizeSelectActualOutlinedIcon style={{color:'rgba(35,109,220,0.8)'}}/>
-            <p>Post</p>
-          </div><div className='make_post_bottom_button'>
-            <VideocamIcon style={{color:'rgba(104,176,74,1)'}}/>
-            <p>Video</p>
-          </div><div className='make_post_bottom_button'>
-            <WorkIcon style={{color:'rgba(154,74,225,0.8)'}}/>
-            <p>Job</p>
-          </div><div className='make_post_bottom_button'>
-            <ArticleIcon style={{color:'rgba(252,93,93,1)'}}/>
-            <p>Write an article</p>
+    <div className='false_feed'>
+
+      <div className='feed'>
+        <div className="feed_header">
+          <img src={linkedInLogo} alt="" />
+          <SearchBar settings={false}/>
+          <div className="feed_header_profile">
+            <img src={profileImg} alt="" />
+            <ExpandMoreIcon style={{color:'white', height:'13px', width:'13px'}}/>
           </div>
         </div>
+        <div className="make_post">
+          <div className="make_post_top">
+            <img src={profileImg} alt="" />
+            <input type="text" name="post-content" value={PostContent} id="" placeholder='Start a post' onChange={()=>{updateValue}}/>
+          </div>
+          <div className="make_post_bottom">
+            <div className='make_post_bottom_button'>
+              <PhotoSizeSelectActualOutlinedIcon style={{color:'rgba(35,109,220,0.8)'}}/>
+              <p>Post</p>
+            </div><div className='make_post_bottom_button'>
+              <VideocamIcon style={{color:'rgba(104,176,74,1)'}}/>
+              <p>Video</p>
+            </div><div className='make_post_bottom_button'>
+              <WorkIcon style={{color:'rgba(154,74,225,0.8)'}}/>
+              <p>Job</p>
+            </div><div className='make_post_bottom_button'>
+              <ArticleIcon style={{color:'rgba(252,93,93,1)'}}/>
+              <p>Write an article</p>
+            </div>
+          </div>
+        </div>
+        <div className="feed_container">
+          <FeedItem srcProfile={profilePic7}
+            connected={true}
+            name={"Flavour Johnson"}
+            follow={true}
+            brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
+            time={"2m"}
+            content={"How to steal 100K hearts for free"}
+            seeMore={true}
+            srcPost={postImage1}
+            nbrReactions={"10,204"}
+            nbrComments={2500}
+            nbrReposts={1053}/>
+          <FeedItem srcProfile={profilePic7}
+            connected={true}
+            name={"Flavour Johnson"}
+            follow={true}
+            brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
+            time={"2m"}
+            content={"How to steal 100K hearts for free"}
+            seeMore={true}
+            srcPost={postImage1}
+            nbrReactions={"10,204"}
+            nbrComments={2500}
+            nbrReposts={1053}/>
+          <FeedItem srcProfile={profilePic7}
+            connected={true}
+            name={"Flavour Johnson"}
+            follow={true}
+            brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
+            time={"2m"}
+            content={"How to steal 100K hearts for free"}
+            seeMore={true}
+            srcPost={postImage1}
+            nbrReactions={"10,204"}
+            nbrComments={2500}
+            nbrReposts={1053}/>
+          <FeedItem srcProfile={profilePic7}
+            connected={true}
+            name={"Flavour Johnson"}
+            follow={true}
+            brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
+            time={"2m"}
+            content={"How to steal 100K hearts for free"}
+            seeMore={true}
+            srcPost={postImage1}
+            nbrReactions={"10,204"}
+            nbrComments={2500}
+            nbrReposts={1053}/>
+          <FeedItem srcProfile={profilePic7}
+            connected={true}
+            name={"Flavour Johnson"}
+            follow={true}
+            brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
+            time={"2m"}
+            content={"How to steal 100K hearts for free"}
+            seeMore={true}
+            srcPost={postImage1}
+            nbrReactions={"10,204"}
+            nbrComments={2500}
+            nbrReposts={1053}/>
+        </div>
       </div>
-      <div className="feed_container">
-        <FeedItem srcProfile={profilePic7}
-          connected={true}
-          name={"Flavour Johnson"}
-          follow={true}
-          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
-          time={"2m"}
-          content={"How to steal 100K hearts for free"}
-          seeMore={true}
-          srcPost={postImage1}
-          nbrReactions={"10,204"}
-          nbrComments={2500}
-          nbrReposts={1053}/>
-        <FeedItem srcProfile={profilePic7}
-          connected={true}
-          name={"Flavour Johnson"}
-          follow={true}
-          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
-          time={"2m"}
-          content={"How to steal 100K hearts for free"}
-          seeMore={true}
-          srcPost={postImage1}
-          nbrReactions={"10,204"}
-          nbrComments={2500}
-          nbrReposts={1053}/>
-        <FeedItem srcProfile={profilePic7}
-          connected={true}
-          name={"Flavour Johnson"}
-          follow={true}
-          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
-          time={"2m"}
-          content={"How to steal 100K hearts for free"}
-          seeMore={true}
-          srcPost={postImage1}
-          nbrReactions={"10,204"}
-          nbrComments={2500}
-          nbrReposts={1053}/>
-        <FeedItem srcProfile={profilePic7}
-          connected={true}
-          name={"Flavour Johnson"}
-          follow={true}
-          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
-          time={"2m"}
-          content={"How to steal 100K hearts for free"}
-          seeMore={true}
-          srcPost={postImage1}
-          nbrReactions={"10,204"}
-          nbrComments={2500}
-          nbrReposts={1053}/>
-        <FeedItem srcProfile={profilePic7}
-          connected={true}
-          name={"Flavour Johnson"}
-          follow={true}
-          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
-          time={"2m"}
-          content={"How to steal 100K hearts for free"}
-          seeMore={true}
-          srcPost={postImage1}
-          nbrReactions={"10,204"}
-          nbrComments={2500}
-          nbrReposts={1053}/>
-      </div>
+      <Navbar/>
     </div>
   )
 }

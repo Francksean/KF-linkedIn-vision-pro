@@ -72,12 +72,20 @@ function Discussions() {
         height:0,
         duration:1,
       })
+      .to(manangerComponent,{
+        y:250,
+        duration:1
+      })
 
     }else{
-      timeline.to(discComponent, {
+      timeline.to(manangerComponent,{
+        y:0,
+        duration:0.2
+      })
+      .to(discComponent, {
         width:307,
         height:500,
-        duration:1,
+        duration:0.5,
       })
     }
   }, [isDiscOpen])

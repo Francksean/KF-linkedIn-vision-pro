@@ -16,7 +16,7 @@ import background4 from './assets/background-linkedin-vision-pro4.jpg';
 
 function App() {
   const [backgroundCounter, setBackgroundCounter] = useState(1)
-  const [ isBrightnessLow, setIsBrightnessLow ] = useState(false)
+  const [ isBrightnessLow, setIsBrightnessLow ] = useState(true)
 
   const backgroundChanger = () => {
     if (backgroundCounter === 4) {

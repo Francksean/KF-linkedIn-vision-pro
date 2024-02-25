@@ -17,6 +17,12 @@
 .feed:hover{
   cursor: pointer;
 }
+.false_feed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1vh;
+}
 .feed_header{
   width: 100%;
   display: flex;

@@ -48,12 +48,20 @@ function Profile() {
         height:0,
         duration:1,
       })
+      .to(manangerComponent,{
+        y:250,
+        duration:1
+      })
 
     }else{
-      timeline.to(profileComponent, {
+      timeline.to(manangerComponent,{
+        y:0,
+        duration:0.2
+      })
+      .to(profileComponent, {
         width:307,
         height:500,
-        duration:1,
+        duration:0.5,
       })
     }
   }, [isProfileOpen])
