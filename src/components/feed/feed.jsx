@@ -90,7 +90,7 @@ function Feed() {
           connected={true}
           name={"Flavour Johnson"}
           follow={true}
-          brief={"Founder of GameX- The emperor | The Conqueror | The Champion | The Lion"}
+          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
           time={"2m"}
           content={"How to steal 100K hearts for free"}
           seeMore={true}
@@ -102,7 +102,7 @@ function Feed() {
           connected={true}
           name={"Flavour Johnson"}
           follow={true}
-          brief={"Founder of GameX- The emperor | The Conqueror | The Champion | The Lion"}
+          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
           time={"2m"}
           content={"How to steal 100K hearts for free"}
           seeMore={true}
@@ -114,7 +114,7 @@ function Feed() {
           connected={true}
           name={"Flavour Johnson"}
           follow={true}
-          brief={"Founder of GameX- The emperor | The Conqueror | The Champion | The Lion"}
+          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
           time={"2m"}
           content={"How to steal 100K hearts for free"}
           seeMore={true}
@@ -126,7 +126,7 @@ function Feed() {
           connected={true}
           name={"Flavour Johnson"}
           follow={true}
-          brief={"Founder of GameX- The emperor | The Conqueror | The Champion | The Lion"}
+          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
           time={"2m"}
           content={"How to steal 100K hearts for free"}
           seeMore={true}
@@ -138,7 +138,7 @@ function Feed() {
           connected={true}
           name={"Flavour Johnson"}
           follow={true}
-          brief={"Founder of GameX- The emperor | The Conqueror | The Champion | The Lion"}
+          brief={"Founder of GameX - The emperor | The Conqueror | The Champion | The Lion"}
           time={"2m"}
           content={"How to steal 100K hearts for free"}
           seeMore={true}

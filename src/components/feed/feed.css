@@ -5,7 +5,7 @@
   width: 675px;
   overflow: scroll;
   padding: 2vh 2vw;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   border-radius:1.5em;
   box-shadow: inset 1px 1px 5px 1px white,
               inset -0px -0px 5px 1px  rgba(0, 0, 0, 0.948);
@@ -117,7 +117,7 @@
 .feed_container{
   display: flex;
   flex-direction: column;
-  row-gap: 1vh;
+  row-gap: 2vh;
   width: 100%;
 }
 .feed_item{
