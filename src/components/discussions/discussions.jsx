@@ -73,14 +73,22 @@ function Discussions() {
         duration:1,
       })
       .to(manangerComponent,{
-        y:250,
+        y:305,
+        duration:0.2
+      })
+      .to(manangerComponent,{
+        x:-150,
         duration:0.2
       })
 
     }else{
       timeline.to(manangerComponent,{
+        x:0,
+        duration:0.1
+      })
+      .to(manangerComponent,{
         y:0,
-        duration:0.2
+        duration:0.1
       })
       .to(discComponent, {
         width:307,
