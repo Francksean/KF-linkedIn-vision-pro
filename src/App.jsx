@@ -27,7 +27,6 @@ function App() {
   }
   const setBrightness = ()=>{
     if(isBrightnessLow){
-      console.log("ok ok")
       setIsBrightnessLow(false)     
     }else{
       setIsBrightnessLow(true)
