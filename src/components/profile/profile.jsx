@@ -53,7 +53,7 @@ function Profile() {
         duration:0.2
       })
       .to(manangerComponent,{
-        x:150,
+        x:100,
         duration:0.2
       })
 
