@@ -49,7 +49,7 @@ function Profile() {
         duration:1,
       })
       .to(manangerComponent,{
-        y:305,
+        y:303,
         duration:0.2
       })
       .to(manangerComponent,{
